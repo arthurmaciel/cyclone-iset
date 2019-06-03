@@ -7,13 +7,13 @@
  (tags           "math" "data-structures")
 
  (libraries
-  ((iset base)
+  ((cyclone iset base)
    (description "iset base library"))
-  ((iset iterators)
+  ((cyclone iset iterators)
    (description "iset iterators library"))
-  ((iset constructors)
+  ((cyclone iset constructors)
    (description "iset constructors library"))
-  ((iset optimize)
+  ((cyclone iset optimize)
    (description "iset optimize library"))
-  (iset
+  ((cyclone iset)
    (description "iset main library definition"))))
