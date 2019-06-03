@@ -6,7 +6,7 @@
 ;;> operations are provided based on the character set operations
 ;;> found in SRFI-14.
 
-(define-library (iset)
+(define-library (cyclone iset)
   (export %make-iset
           make-iset
           iset?
