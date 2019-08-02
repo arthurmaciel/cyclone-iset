@@ -1,5 +1,5 @@
 (package
- (name           iset)
+ (name           (cyclone iset))
  (version        0.1)
  (license        "BSD")
  (authors        "Arthur Maciel <arthurmaciel@gmail.com>")
@@ -7,9 +7,10 @@
  (description    "Chibi's iset library ported to Cyclone Scheme")
  (tags           "math" "data-structures")
  (docs           "https://github.com/cyclone-scheme/cyclone-winds/wiki/iset.md")
+ (test           "tests.scm")
 
  (library
-   (name (cyclone iset base))
+     (name (cyclone iset base))
    (description "iset base library"))
  
  (library
