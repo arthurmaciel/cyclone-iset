@@ -1,9 +1,9 @@
-(mport (scheme base)
+(import (scheme base)
         (scheme write)
         (except (srfi 1) make-list list-copy)        
         (cyclone iset)
         (cyclone iset optimize)
-        (scheme cyclone test))
+        (cyclone test))
 
 (define (run-tests)
   (define (test-name iset op)
